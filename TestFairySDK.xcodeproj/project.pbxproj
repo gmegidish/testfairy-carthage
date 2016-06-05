@@ -8,28 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		420017511D04998400B5FB37 /* TestFairySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 420017501D04998400B5FB37 /* TestFairySDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4200175C1D049A1300B5FB37 /* libTestFairy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 420017591D049A1300B5FB37 /* libTestFairy.a */; };
-		4200175D1D049A1300B5FB37 /* TestFairy.h in Headers */ = {isa = PBXBuildFile; fileRef = 4200175A1D049A1300B5FB37 /* TestFairy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4200175E1D049A1300B5FB37 /* upload-dsym.sh in Resources */ = {isa = PBXBuildFile; fileRef = 4200175B1D049A1300B5FB37 /* upload-dsym.sh */; };
 		420017641D049A7300B5FB37 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4200175F1D049A7300B5FB37 /* AVFoundation.framework */; };
 		420017651D049A7300B5FB37 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420017601D049A7300B5FB37 /* CoreMedia.framework */; };
 		420017661D049A7300B5FB37 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420017611D049A7300B5FB37 /* CoreMotion.framework */; };
 		420017671D049A7300B5FB37 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420017621D049A7300B5FB37 /* OpenGLES.framework */; };
 		420017681D049A7300B5FB37 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420017631D049A7300B5FB37 /* SystemConfiguration.framework */; };
+		420017951D049DA000B5FB37 /* libTestFairy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 420017921D049DA000B5FB37 /* libTestFairy.a */; };
+		420017961D049DA000B5FB37 /* TestFairy.h in Headers */ = {isa = PBXBuildFile; fileRef = 420017931D049DA000B5FB37 /* TestFairy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		420017971D049DA000B5FB37 /* upload-dsym.sh in Resources */ = {isa = PBXBuildFile; fileRef = 420017941D049DA000B5FB37 /* upload-dsym.sh */; };
+		4200179C1D04A04E00B5FB37 /* TestFairySDKInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 4200179A1D04A04E00B5FB37 /* TestFairySDKInternal.h */; };
+		4200179D1D04A04E00B5FB37 /* TestFairySDKInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 4200179B1D04A04E00B5FB37 /* TestFairySDKInternal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4200174D1D04998400B5FB37 /* TestFairySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestFairySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		420017501D04998400B5FB37 /* TestFairySDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestFairySDK.h; sourceTree = "<group>"; };
 		420017521D04998400B5FB37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		420017591D049A1300B5FB37 /* libTestFairy.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFairy.a; sourceTree = "<group>"; };
-		4200175A1D049A1300B5FB37 /* TestFairy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFairy.h; sourceTree = "<group>"; };
-		4200175B1D049A1300B5FB37 /* upload-dsym.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "upload-dsym.sh"; sourceTree = "<group>"; };
 		4200175F1D049A7300B5FB37 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		420017601D049A7300B5FB37 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		420017611D049A7300B5FB37 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		420017621D049A7300B5FB37 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		420017631D049A7300B5FB37 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		420017921D049DA000B5FB37 /* libTestFairy.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFairy.a; sourceTree = "<group>"; };
+		420017931D049DA000B5FB37 /* TestFairy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFairy.h; sourceTree = "<group>"; };
+		420017941D049DA000B5FB37 /* upload-dsym.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "upload-dsym.sh"; sourceTree = "<group>"; };
+		4200179A1D04A04E00B5FB37 /* TestFairySDKInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFairySDKInternal.h; sourceTree = "<group>"; };
+		4200179B1D04A04E00B5FB37 /* TestFairySDKInternal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestFairySDKInternal.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,11 +42,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				420017641D049A7300B5FB37 /* AVFoundation.framework in Frameworks */,
+				420017951D049DA000B5FB37 /* libTestFairy.a in Frameworks */,
 				420017651D049A7300B5FB37 /* CoreMedia.framework in Frameworks */,
 				420017661D049A7300B5FB37 /* CoreMotion.framework in Frameworks */,
 				420017671D049A7300B5FB37 /* OpenGLES.framework in Frameworks */,
 				420017681D049A7300B5FB37 /* SystemConfiguration.framework in Frameworks */,
-				4200175C1D049A1300B5FB37 /* libTestFairy.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,21 +77,15 @@
 		4200174F1D04998400B5FB37 /* TestFairySDK */ = {
 			isa = PBXGroup;
 			children = (
-				420017581D049A1300B5FB37 /* TestFairy */,
+				420017921D049DA000B5FB37 /* libTestFairy.a */,
+				420017931D049DA000B5FB37 /* TestFairy.h */,
+				420017941D049DA000B5FB37 /* upload-dsym.sh */,
 				420017501D04998400B5FB37 /* TestFairySDK.h */,
 				420017521D04998400B5FB37 /* Info.plist */,
+				4200179A1D04A04E00B5FB37 /* TestFairySDKInternal.h */,
+				4200179B1D04A04E00B5FB37 /* TestFairySDKInternal.m */,
 			);
 			path = TestFairySDK;
-			sourceTree = "<group>";
-		};
-		420017581D049A1300B5FB37 /* TestFairy */ = {
-			isa = PBXGroup;
-			children = (
-				420017591D049A1300B5FB37 /* libTestFairy.a */,
-				4200175A1D049A1300B5FB37 /* TestFairy.h */,
-				4200175B1D049A1300B5FB37 /* upload-dsym.sh */,
-			);
-			path = TestFairy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,8 +95,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4200175D1D049A1300B5FB37 /* TestFairy.h in Headers */,
+				420017961D049DA000B5FB37 /* TestFairy.h in Headers */,
 				420017511D04998400B5FB37 /* TestFairySDK.h in Headers */,
+				4200179C1D04A04E00B5FB37 /* TestFairySDKInternal.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,7 +158,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4200175E1D049A1300B5FB37 /* upload-dsym.sh in Resources */,
+				420017971D049DA000B5FB37 /* upload-dsym.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,6 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4200179D1D04A04E00B5FB37 /* TestFairySDKInternal.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,7 +214,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -256,7 +256,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -269,16 +269,23 @@
 		420017561D04998400B5FB37 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = TestFairySDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TestFairySDK/TestFairy",
+					"$(PROJECT_DIR)/TestFairySDK",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.testfairy.TestFairySDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -291,14 +298,20 @@
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = TestFairySDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TestFairySDK/TestFairy",
+					"$(PROJECT_DIR)/TestFairySDK",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.testfairy.TestFairySDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -325,6 +338,7 @@
 				420017571D04998400B5FB37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
