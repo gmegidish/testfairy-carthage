@@ -1,7 +1,7 @@
 # TestFairy Carthage 
 
 For installation and more information, please visit 
-[TestFairy Carthage](http://docs.testfairy.com/iOS_SDK/Installation_with_Carthage.html) on TestFairy.
+[TestFairy Carthage](https://docs.testfairy.com/iOS_SDK/Integrating_iOS_SDK.html#cathage) on TestFairy.
 
 License
 =======
