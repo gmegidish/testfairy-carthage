@@ -391,6 +391,15 @@
 + (void)getDistributionStatus:(NSString *)appToken callback:(void(^)(NSDictionary<NSString *, NSString *> *, NSError*))callaback;
 
 /**
+ * Enable end-to-end encryption for this session. Screenshots and logs will be encrypted using
+ * this RSA key. Please refer to the documentation to learn more about the subject and how
+ * to create public/private key pair.
+ *
+ * @param publicKey64 RSA Public Key converted to DER format and encoded in base64
+ */
++ (void)setPublicKey:(NSString *)publicKey;
+
+/**
  * Set the delegate object to listent to TestFairy events. See @TestFairySessionStateDelegate
  * for more information
  */
@@ -400,7 +409,14 @@
  * Call this function to log your network events.
  */
 + (void)addNetwork:(NSURLSessionTask *)task error:(NSError *)error;
-
++ (void)addNetwork:(NSURL *)url
+			method:(NSString *)method
+			code:(int)code
+ startTimeInMillis:(long)startTime
+   endTimeInMillis:(long)endTime
+	   requestSize:(long)requestSize
+	  responseSize:(long)responseSize
+	  errorMessage:(NSString*)error;
 /**
  * Send an NSError to TestFairy.
  * Note, this function is limited to 5 errors.
