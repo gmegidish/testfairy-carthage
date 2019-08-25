@@ -1,0 +1,11 @@
+language: node_js
+install: true
+script: true
+deploy:
+  provider: releases
+  api_key:
+    secure: MgG5fZiHhqrTds88kVqbEsUcu5dwAJsWj+x9Lx2b3W9jks9WjiaU/9CdyA5bPe4uyR2g40nD5Vsoudo8J2D2APe+EvovPP58w5KI6B9Mi8ChTCDSnB4xyTGxcacK33yOUEdxr00nX9P1Obc1/Kx9RJpAB850WxjIReW4yy7HH82CKwZMlBpwRhUj+6AwJMN7oI6s1pf4x3FTdsLyC493+3+lSR4UyYsuKzVKtsSkZ3HljUFTfv5ByRBvhyuCyNP1Tz8maP0jUB9pFwiKNsl41oWddroS2svvWFAMGoF3v5dJvcdYtieKgQIPFZplL86booEDdj1dq9PWjht33CyRf4M9xSo2CECb9UGI//I5+NVGgLQBSpJWrwlQpEsQPtDyBHxhX0LvqspVdQNkVnlNkCiTqYRv3dFWIB7Db9bs6F/v+JeeEpkJiecslZP/Y6szrEhaPsMq/F6GE14cZx6GcSUlAMk5H147fgQtcedGbbwd15P0DhzZX75xja5qEr+m07m4yrShge711MXFTWcpBdzdVPua2HIHAgLyVzBxsmoGUQIMbMV7C5OOsMyeHAyAsd0ucZdgyreB6Na6g8RUm0F8OeIdqtAYEv7pn1lIusrXhr8gvDVby9rvNtAm9nom84K4hniwyZGrCm+y7PkrO7LueYW0PHarfKR3FN6HpVo=
+  file: TestFairySDK.framework.zip
+  on:
+    repo: testfairy/testfairy-carthage
+    tags: true
